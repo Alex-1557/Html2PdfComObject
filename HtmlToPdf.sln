@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HtmlToPdf", "HtmlToPdf\HtmlToPdf.vbproj", "{3EE4F35B-BBBE-4274-B756-102CC4DBFB66}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TestHtmlToPdf1", "TestHtmlToPdf1\TestHtmlToPdf1.vbproj", "{72BF6A80-C6C6-45F2-A458-14627B6D07AB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3EE4F35B-BBBE-4274-B756-102CC4DBFB66} = {3EE4F35B-BBBE-4274-B756-102CC4DBFB66}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EE4F35B-BBBE-4274-B756-102CC4DBFB66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE4F35B-BBBE-4274-B756-102CC4DBFB66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE4F35B-BBBE-4274-B756-102CC4DBFB66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE4F35B-BBBE-4274-B756-102CC4DBFB66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72BF6A80-C6C6-45F2-A458-14627B6D07AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72BF6A80-C6C6-45F2-A458-14627B6D07AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72BF6A80-C6C6-45F2-A458-14627B6D07AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72BF6A80-C6C6-45F2-A458-14627B6D07AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F490EFC9-0B9B-40EC-BC45-7642209C2F2B}
+	EndGlobalSection
+EndGlobal
